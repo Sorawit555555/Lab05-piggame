@@ -1,0 +1,62 @@
+/* app.css */
+
+/* app.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.title {
+  color: #ffcc00;
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px #ff0000; /* เงาสีแดง */
+  font-family: 'Comic Sans MS', cursive;
+}
+
+.level {
+  color: #00ffff;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 3px #ff66ff; /* เงาสีชมพู */
+}
+
+img {
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+button {
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff8533;
+}
+
+h1 {
+  color: #ff66ff;
+}
+
+h2 {
+  color: #e82626;
+}
+
