@@ -54,9 +54,11 @@ button:hover {
 
 h1 {
   color: #ff66ff;
+  text-shadow: 1px 1px 3px #ff66ff;
 }
 
 h2 {
   color: #e82626;
+  text-shadow: 1px 1px 3px #e61515;
 }
 
