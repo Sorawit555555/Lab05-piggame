@@ -1,6 +1,8 @@
 import  { useState } from 'react';
 import './app.css';
 
+
+
 const PigGame = () => {
   const [level, setLevel] = useState(0);
   const [size, setSize] = useState(100); // เริ่มต้นขนาดรูปหมู (ทั้งกว้างและสูง)
