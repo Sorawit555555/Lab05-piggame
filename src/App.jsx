@@ -19,7 +19,7 @@ const PigGame = () => {
     setSize(size + levelIncrease * 2); // เพิ่มขนาดรูปหมูตาม level
 
     // เปลี่ยนรูปเมื่อ level เกิน 100
-    if (newLevel > 100) {
+    if (newLevel >= 100) {
       setImage('/42a8220a-d2e4-4e11-b00f-a382f06cf43b.jpg'); // ลิงก์รูปภาพที่เปลี่ยน
     }
   };
