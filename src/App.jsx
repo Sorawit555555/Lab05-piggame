@@ -4,7 +4,7 @@ import './App.css'; // นำเข้า CSS อย่างถูกต้อ�
 const PigGame = () => {
   const [level, setLevel] = useState(0);
   const [size, setSize] = useState(100); // เริ่มต้นขนาดรูปหมู
-  const [image, setImage] = useState('/images/TSNBg3wSBdng7ijMhT0ud4HrQYofJjJy8QCa8JSD8VY copy.jpg'); // รูปหมูเริ่มต้น
+  const [image, setImage] = useState('/TSNBg3wSBdng7ijMhT0ud4HrQYofJjJy8QCa8JSD8VY copy.jpg'); // รูปหมูเริ่มต้น
 
   const handleFeed = (food) => {
     let levelIncrease = 0;
@@ -20,7 +20,7 @@ const PigGame = () => {
 
     // เปลี่ยนรูปเมื่อ level เกิน 100
     if (newLevel > 100) {
-      setImage('/images/42a8220a-d2e4-4e11-b00f-a382f06cf43b.jpg'); // ลิงก์รูปภาพที่เปลี่ยน
+      setImage('/42a8220a-d2e4-4e11-b00f-a382f06cf43b.jpg'); // ลิงก์รูปภาพที่เปลี่ยน
     }
   };
 
